@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FakeFile" format=3 uid="uid://bvjn4moky5yuf"]
+
+[ext_resource type="Script" uid="uid://b5df1fbem5mfy" path="res://core/fake_file.gd" id="1_60h38"]
+
+[resource]
+script = ExtResource("1_60h38")
+filename = "stringpad"
+filetype = ".gd"
+content = "res://programs/fauxnycs/stringpad.gd"
+metadata/_custom_type_script = "uid://b5df1fbem5mfy"

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b1g8f74a31grl"]
+
+[ext_resource type="Script" uid="uid://cbk6gnu8lxcun" path="res://core/desk/desktop_window.gd" id="1_flcxj"]
+
+[node name="DesktopWindow" type="PanelContainer" unique_id=567830832 node_paths=PackedStringArray("content_node")]
+clip_contents = true
+offset_right = 460.0
+offset_bottom = 380.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_flcxj")
+content_node = NodePath("Content")
+
+[node name="Content" type="Control" parent="." unique_id=1617316663]
+layout_mode = 2

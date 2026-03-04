@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FakeFile" format=3 uid="uid://c2u6di10qbwqb"]
+
+[ext_resource type="Script" uid="uid://b5df1fbem5mfy" path="res://core/fake_file.gd" id="1_qkniv"]
+
+[resource]
+script = ExtResource("1_qkniv")
+filename = "IMPORTANTDOCUMENTDONTLOOKAT"
+filetype = ".str"
+content = ":O"
+metadata/_custom_type_script = "uid://b5df1fbem5mfy"

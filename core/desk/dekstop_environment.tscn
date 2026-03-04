@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://caf24j7u0oxsw"]
+
+[ext_resource type="Texture2D" uid="uid://erye03wor36l" path="res://icon.svg" id="1_fqldh"]
+[ext_resource type="Script" uid="uid://xp3su5c3yax4" path="res://core/desk/desktop_environment.gd" id="1_ue305"]
+
+[node name="DekstopEnvironment" type="CanvasLayer" unique_id=549865379]
+script = ExtResource("1_ue305")
+metadata/_custom_type_script = "uid://xp3su5c3yax4"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=170288578]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_fqldh")

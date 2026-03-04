@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FakeFile" format=3 uid="uid://b05tr78qua8a1"]
+
+[ext_resource type="Script" uid="uid://b5df1fbem5mfy" path="res://core/fake_file.gd" id="1_t6epl"]
+
+[resource]
+script = ExtResource("1_t6epl")
+filename = "terminal"
+filetype = ".sc"
+content = "res://programs/fauxnycs/terminal.tres"
+metadata/_custom_type_script = "uid://b5df1fbem5mfy"
